@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $black;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -152,11 +152,14 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: #3B3B3B;
 }
 
 	#logo {
 		margin: 0.75em 0;
+		display:block;
+		text-indent:-9999px;
+		background:url(../images/schoolOfMedicineLogo@2x.png);
 
 		a {
 			color: $white;
@@ -238,7 +241,7 @@ and more scalable.
 	li.current-menu-item,
 	li.current_page_item,
 	li.current_page_ancestor {
-
+			
 		a {}
 
 	}  /* end current highlighters */
@@ -261,13 +264,11 @@ POSTS & CONTENT STYLES
 			border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $light-gray;
 				padding: 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
-				border-top: 1px solid $light-gray;
 
 				p {
 					margin: 0;

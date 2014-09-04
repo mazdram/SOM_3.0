@@ -9,10 +9,10 @@
 http_path = "/"
 
 # 2. probably don't need to touch these
-css_dir = "../css"
-sass_dir = "./"
-images_dir = "../images"
-javascripts_dir = "../js"
+css_dir = "/Volumes/Macintosh HD/Users/administrator/Sites/SOM_3.0/content/themes/bones/library/css"
+sass_dir = "/Volumes/Macintosh HD/Users/administrator/Sites/SOM_3.0/content/themes/bones/library/scss"
+images_dir = "/Volumes/Macintosh HD/Users/administrator/Sites/SOM_3.0/content/themes/bones/library/images"
+javascripts_dir = "/Volumes/Macintosh HD/Users/administrator/Sites/SOM_3.0/content/themes/bones/library/js"
 environment = :development
 relative_assets = true
 
