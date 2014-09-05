@@ -160,6 +160,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/css\/editor-style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/css\/editor-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -588,7 +597,7 @@
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 1,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/library\/scss\/partials\/_variables.scss",
 		"outputAbbreviatedPath": "\/library\/scss\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
@@ -856,7 +865,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "bones",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_gray"
 	},
 "projectSettings": {
