@@ -157,9 +157,8 @@ HEADER STYLES
 
 	#logo {
 		margin: 0.75em 0;
-		display:block;
-		text-indent:-9999px;
-		background:url(../images/schoolOfMedicineLogo@2x.png);
+	
+		
 
 		a {
 			color: $white;
@@ -189,7 +188,7 @@ and more scalable.
 			color: $white;
 			text-decoration: none;
 			padding: 0.75em;
-
+			
 			/*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -264,11 +263,12 @@ POSTS & CONTENT STYLES
 			border: 1px solid $border-color;
 
 			header {
-				padding: 1.5em;
+				padding: 1.5em 1.5em 0 1.5em;
 			}
 
 			footer {
 				padding: 1.5em;
+
 
 				p {
 					margin: 0;
@@ -887,3 +887,4 @@ FOOTER STYLES
 
 
 	.copyright {}
+
