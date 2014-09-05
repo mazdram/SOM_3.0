@@ -3,7 +3,7 @@ A Lightweight Wordpress Theme
 
 ####Small files, semantic, fast, full cross browser compatibility
 
-Credit to Eddit Machado for building the fantastic Bones theme and Paul Irish & the HTML5 Boilerplate
+Credit to Eddie Machado for building the fantastic Bones theme and Paul Irish & the HTML5 Boilerplate
 Yoast for some WP functions & optimization ideas. Bones is designed to make the life of developers easier. It's built
 using HTML5 & has a strong semantic foundation.
 It's constantly growing so be sure to check back often if you are a
