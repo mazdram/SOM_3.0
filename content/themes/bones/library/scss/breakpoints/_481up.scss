@@ -26,6 +26,31 @@ them in here, they won't work.
 /*********************
 NAVIGATION STYLES
 *********************/
+.breadcrumbs {
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+    
+    	li {
+	    float:left;
+		margin-right:10px;
+		font-size: .9em;
+    }
+    	a {
+	    text-decoration: none;
+		
+	    	
+    	}
+    
+    	separator {
+	    font-size: .9em;
+    }
+    	
+}
+ 
+.breadcrumb_wrp {
+	    	margin-left:1.5em;
+    	}
 
 .nav {}
 
@@ -76,6 +101,7 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+
 
 /* entry content */
 .entry-content {

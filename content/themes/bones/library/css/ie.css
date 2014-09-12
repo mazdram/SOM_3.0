@@ -187,6 +187,22 @@ them in here, they won't work.
 /*********************
 NAVIGATION STYLES
 *********************/
+.breadcrumbs {
+  list-style: none;
+  margin: 10px 0;
+  overflow: hidden; }
+  .breadcrumbs li {
+    float: left;
+    margin-right: 10px;
+    font-size: .9em; }
+  .breadcrumbs a {
+    text-decoration: none; }
+  .breadcrumbs separator {
+    font-size: .9em; }
+
+.breadcrumb_wrp {
+  margin-left: 1.5em; }
+
 /* .menu is clearfixed inside mixins.scss */
 .menu {
   /* end .menu ul */ }
@@ -250,6 +266,19 @@ come into play. Have fun!
 /*********************
 GENERAL STYLES
 *********************/
+.breadcrumbs {
+  list-style: none;
+  margin: 10px 0;
+  overflow: hidden; }
+
+.breadcrumbs li {
+  float: left;
+  margin-right: 10px;
+  font-size: .9em; }
+
+.breadcrumbs .separator {
+  font-size: .9em; }
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -284,7 +313,7 @@ NAVIGATION STYLES
       has the possibility of being a mobile device.
       */ }
       .nav li a:hover, .nav li a:focus {
-        color: white;
+        color: #fff;
         text-decoration: underline; }
     .nav li ul.sub-menu,
     .nav li ul.children {

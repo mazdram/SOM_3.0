@@ -15,9 +15,7 @@
 
 <?php get_header(); ?>
 
-<?php 
-    echo do_shortcode("[metaslider id=36]"); 
-?>
+
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">
@@ -84,10 +82,37 @@
 
 				</div>
 				
+				<section class ="full-breakout">
+				<div class="wrap cf">
+				<section class="entry-content cf" align="left">
+							
+								<h2>Apply to Our Graduate Program</h2>
+								<p>The department of Molecular Microbiology & Immunology (MMI), in partnership with the faculty from the department of Veterinary Pathobiology (VPB), now called Molecular Pathogenesis and Therapeutics Graduate Program (MPT), offers a comprehensive graduate program leading to the Doctor of Philosophy (Ph.D) degree.</p>
+								<button class="gold-btn">View Speakers</button>
+				</section>		
+					</div>
+				
+						</section>
+				
 						<section class ="full-breakout-img">
+						<div class="wrap cf">
+								<section class="entry-content cf">
 								<h2>Discovering a Needle in a Haystack for Muscular Dystrophy Patients</h2>
 								<p>Research on significant genetic sequence could lead to treatments for deadly hereditary disease</p>
-								<button class="blue-btn">Read More</button>
+								<button class="gold-btn">Read More</button>
+						</section>
+							</div>
+						</section>
+						
+						
+						<section class ="full-breakout">
+							<div class="wrap cf">
+								<section class="entry-content cf" align="right">
+								<h2>Upcoming Seminar Speakers</h2>
+								<p>The department of Molecular Microbiology and Immunology (MMI), in partnership with the faculty from the department of Veterinary Pathobiology (VPB), now called Molecular Pathogenesis and Therapeutics Graduate Program (MPT), offers a comprehensive graduate program leading to the Doctor of Philosophy (Ph.D) degree.</p>
+								<button class="gold-btn">View Speakers</button>
+								</section>
+							</div>
 						</section>
 			</div>
 

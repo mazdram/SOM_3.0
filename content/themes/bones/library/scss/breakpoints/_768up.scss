@@ -19,6 +19,22 @@ GENERAL STYLES
 
 body {}
 
+.breadcrumbs{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+}
+ 
+.breadcrumbs li{
+    float:left;
+    margin-right:10px;
+    font-size: .9em;
+}
+ 
+.breadcrumbs .separator{
+    font-size: .9em;
+   }
+
 /*********************
 LAYOUT & GRID STYLES
 *********************/

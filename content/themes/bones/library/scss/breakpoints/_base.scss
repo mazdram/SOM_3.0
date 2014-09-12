@@ -4,8 +4,7 @@ Author:
 
 Stylesheet: Base Mobile Stylesheet
 
-Be light and don't over style since everything here will be
-loaded by mobile devices. You want to keep it as minimal as
+Everything here will be loaded by mobile devices. You want to keep it as minimal as
 possible. This is called at the top of the main stylsheet
 and will be used across all viewports.
 
@@ -25,32 +24,72 @@ body {
 }
 
 
- /* Drop cap */
-.dropcap { 
-	float: left; 
-	font-size: 75px; 
-	line-height: 60px; 
-	padding-top: 4px; 
-	padding-right: 8px; 
-	padding-left: 3px; 
-}
+
+ /* Breakout w/o image placed outside the wrapper */	
+.full-breakout	 {
+	margin: 1em 0em 5em 0em;
+
 	
+	p, h2 {
+		color: $text-color;
+	}
+	
+	.right {
+		text-align: right;
+	}
+}	
+	
+ /* Breakout WITH image placed outside the wrapper */	
 .full-breakout-img	 {
 	text-align: center;
 	margin: 2em auto;
-	padding: 5em 0;
-	font-size: 120%;
+	padding: 4em 0;
 	background-image:url(../../../../../content/uploads/2014/09/breakout_sequence.jpg);
 	
-	h2 {
-		color: $white;
-	}
-	
-	p {
+	p, h2 {
 		color: $white;
 	}
 	
 }
+
+#navlist li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 15px;
+}
+
+
+
+ /* Breadcrumbs */
+
+.breadcrumbs {
+    list-style: none;
+    margin: 10px 0;
+    overflow: hidden;
+    li {
+        float: left;
+        margin-right: 10px;
+        font-size: .9em;
+        a {
+            text-decoration: none;
+            color: $gold;
+            &:hover {
+                color: darken($gold,15%);
+            }
+        }
+        separator {
+            font-size: .9em;
+        }
+    }
+}
+
+
+.breadcrumb_wrp {
+			   padding-left:0em;
+	    	
+ 
+    	}
+
 
 /********************
 WORDPRESS BODY CLASSES
@@ -130,6 +169,24 @@ a, a:visited {
 	}
 }
 
+
+
+
+/******************************************************************
+Typography
+******************************************************************/
+
+
+ /* Drop cap */
+.dropcap { 
+	float: left; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+}
+
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
@@ -149,7 +206,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 2em;
 	line-height: 1.333em;
 }
 
@@ -180,11 +237,11 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: #3B3B3B;
+	background-color: rgba(61,61,61,1);
 }
 
 	#logo {
-		margin: 0.75em 0;
+		margin: 0.5em 0;
 	
 		
 
@@ -192,6 +249,7 @@ HEADER STYLES
 			color: $white;
 		}
 	}
+		
 
 /*********************
 NAVIGATION STYLES
@@ -208,12 +266,13 @@ and more scalable.
 .nav {
 	border-bottom: 0;
 	margin: 0;
+	background-color: $gold;
 
 	li {
 
 		a {
 			display: block;
-			color: $white;
+			color: $text-color;
 			text-decoration: none;
 			padding: 0.75em;
 			
@@ -272,9 +331,9 @@ and more scalable.
 		a {}
 
 	}  /* end current highlighters */
-
+	
+	
 } /* end .nav */
-
 
 /*********************
 POSTS & CONTENT STYLES
@@ -762,7 +821,7 @@ COMMENT STYLES
 
 	/* comment reply link */
 	.comment-reply-link {
-		@extend .blue-btn;
+		@extend .gold-btn;
 		font-size: 0.9em;
 		float: right;
 
@@ -818,7 +877,7 @@ COMMENT FORM STYLES
 
 	/* comment submit button */
 	#submit {
-		@extend .blue-btn;
+		@extend .gold-btn;
 		float: right;
 		font-size: 1em;
 	}
@@ -914,5 +973,12 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+	font-size: 80%;
+	
+	a {
+		color: $gold;
+		text-decoration: none;
+	}
+	}
 
