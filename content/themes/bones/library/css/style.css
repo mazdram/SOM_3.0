@@ -613,6 +613,12 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
+/*********************
+REPLACING TEXT WITH AN IMAGE
+*********************/
+/* @include box-sizing(border-box); */
+/* NOTE: value of "padding-box" is only supported in Gecko. So
+probably best not to use it. I mean, were you going to anyway? */
 /******************************************************************
 Site Name:
 Author:
@@ -1249,7 +1255,6 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
-  background-color: #323944;
   -webkit-font-smoothing: antialiased; }
 
 /* Breakout w/o image placed outside the wrapper */
@@ -1293,6 +1298,14 @@ body {
 
 .breadcrumb_wrp {
   padding-left: 0em; }
+
+.logo {
+  background: url("logo.png");
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+  text-indent: -9000px;
+  display: block; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1789,6 +1802,30 @@ FOOTER STYLES
   background-color: #323944;
   color: #f8f9fa; }
 
+.footer-top {
+  clear: both;
+  background-color: #485261;
+  color: #f8f9fa;
+  min-width: 100%;
+  overflow-y: hidden;
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.property {
+  text-align: center;
+  font-size: 80%; }
+
+.property-logo {
+  margin: auto;
+  display: block; }
+
+.border-left {
+  border-left: 1px dotted #f4d288; }
+
+.border-top {
+  border-top: 1px dotted #f4d288; }
+
 /*
 if you checked out the link above:
 http://www.alistapart.com/articles/organizing-mobile/
@@ -1798,12 +1835,56 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
+.footer-links {
+  color: #f8f9fa;
+  text-decoration: none;
+  line-height: 2em;
+  display: table;
+  text-align: left;
+  margin: 0px auto 0px auto; }
+  .footer-links a {
+    text-decoration: none;
+    color: #f8f9fa; }
+    .footer-links a:hover {
+      color: #515f71; }
+
 /* end .footer-links */
 .copyright {
-  font-size: 80%; }
+  font-size: 80%;
+  text-align: center; }
   .copyright a {
     color: #eeb742;
     text-decoration: none; }
+
+ul.mobile-nav {
+  display: block;
+  margin-bottom: 0; }
+
+/* SOCIAL LINKS*/
+ul.social-links li {
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+  ul.social-links li a {
+    display: block;
+    float: right;
+    width: 65px;
+    height: 65px;
+    text-indent: -999px; }
+
+/* Add more icons here*/
+.twitter {
+  background: url("img/twitter.png") no-repeat; }
+
+.facebook {
+  background: url("img/facebook.png") no-repeat; }
+
+.youtube {
+  background: url("img/youtube.png") no-repeat; }
+
+.department {
+  float: right; }
 
 /**************
 NAVIGATAUR MENU - condensed

@@ -19,7 +19,6 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $black;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -88,8 +87,13 @@ body {
 			   padding-left:0em;
 	    	
  
-    	}
-
+     	}
+.logo {
+    background: url("logo.png");
+    height:100px;
+    width:200px;
+    @include hide-text;
+}
 
 /********************
 WORDPRESS BODY CLASSES
@@ -951,8 +955,38 @@ FOOTER STYLES
 	clear: both;
 	background-color: $black;
 	color: $light-gray;
+
 }
 
+.footer-top {
+	clear: both;
+	background-color: lighten($dark-gray,10%);
+	color: $light-gray;
+	 min-width: 100%;
+	 overflow-y: hidden;
+	 position: relative;
+	 padding-top: 2em;
+	 padding-bottom: 2em;
+	 
+}
+
+
+
+.property {
+
+text-align: center;
+font-size: 80%;
+}
+.property-logo {
+margin:auto;		 	
+display:block;
+
+		 	
+	 	}
+	 	
+.border-left {border-left:1px dotted lighten($gold,15%);}
+.border-top {border-top:1px dotted lighten($gold,15%);}
+		 	
 	/*
 	if you checked out the link above:
 	http://www.alistapart.com/articles/organizing-mobile/
@@ -963,22 +997,54 @@ FOOTER STYLES
 	view.
 	*/
 	.footer-links {
+		color: $light-gray;
+		text-decoration: none;
+		line-height: 2em;
+		display:table;
+		text-align: left;
+    margin:0px auto 0px auto;
+		
+		a {
+            text-decoration: none;
+            color: $light-gray;
+            &:hover {
+                color: darken($text-color,5%);
+            }
+        }		
+		
+		ul { 
+			
 
-		ul {
-
-			li {}
+			li {
+				
+			}
 
 		}
 
 	} /* end .footer-links */
 
-
 	.copyright {
 	font-size: 80%;
+	text-align:center;
 	
 	a {
 		color: $gold;
 		text-decoration: none;
 	}
 	}
+ul.mobile-nav {display:block;margin-bottom:0;}
 
+
+/* SOCIAL LINKS*/
+ul.social-links li {list-style:none;@include center-block;
+	a {display:block;float:right;width:65px;height:65px; text-indent:-999px;
+	}
+}
+/* Add more icons here*/
+$icons:(twitter,facebook,youtube);
+@each $social in $icons {
+	.#{$social} {background:url('img/#{$social}.png') no-repeat;}
+}
+	
+	
+.department {float:right;}

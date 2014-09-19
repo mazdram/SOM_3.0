@@ -15,7 +15,9 @@
 
 <?php get_header(); ?>
 
-
+<?php 
+    echo do_shortcode("[metaslider id=36]"); 
+?>
 			<div id="content">
 
 				<div id="inner-content" class="wrap cf">

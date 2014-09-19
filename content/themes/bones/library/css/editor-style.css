@@ -346,6 +346,12 @@ body#tinymce.wp-editor {
   /* @include box-sizing(border-box); */
   /* NOTE: value of "padding-box" is only supported in Gecko. So
   probably best not to use it. I mean, were you going to anyway? */
+  /*********************
+  REPLACING TEXT WITH AN IMAGE
+  *********************/
+  /* @include box-sizing(border-box); */
+  /* NOTE: value of "padding-box" is only supported in Gecko. So
+  probably best not to use it. I mean, were you going to anyway? */
   width: 731px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
@@ -577,7 +583,7 @@ body#tinymce.wp-editor {
     -o-font-feature-settings: "liga", "dlig";
     font-feature-settings: "liga", "dlig"; }
   body#tinymce.wp-editor a, body#tinymce.wp-editor a:visited {
-    color: #0033cc;
+    color: #03c;
     /* on hover */
     /* on click */ }
     body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus, body#tinymce.wp-editor a:visited:hover, body#tinymce.wp-editor a:visited:focus {

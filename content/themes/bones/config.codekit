@@ -178,6 +178,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/css\/img\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/library\/css\/img\/facebook.png",
+		"outputAbbreviatedPath": "\/library\/css\/img\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/css\/img\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 998,
+		"inputAbbreviatedPath": "\/library\/css\/img\/twitter.png",
+		"outputAbbreviatedPath": "\/library\/css\/img\/twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/css\/login.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -227,6 +249,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1793,
+		"inputAbbreviatedPath": "\/library\/images\/facebook.png",
+		"outputAbbreviatedPath": "\/library\/images\/facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/login-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -238,13 +271,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/schoolOfMedicineLogo@2x.png": {
+	"\/library\/images\/logos\/schoolOfMedicineLogo@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24618,
-		"inputAbbreviatedPath": "\/library\/images\/schoolOfMedicineLogo@2x.png",
-		"outputAbbreviatedPath": "\/library\/images\/schoolOfMedicineLogo@2x.png",
+		"inputAbbreviatedPath": "\/library\/images\/logos\/schoolOfMedicineLogo@2x.png",
+		"outputAbbreviatedPath": "\/library\/images\/logos\/schoolOfMedicineLogo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
