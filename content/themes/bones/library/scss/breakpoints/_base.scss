@@ -15,8 +15,7 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
-	font-size: 100%;
+		font-family: $lato;
 	line-height: 1.5;
 	color: $text-color;
   -webkit-font-smoothing: antialiased;
@@ -84,7 +83,7 @@ body {
 
 
 .breadcrumb_wrp {
-			   padding-left:0em;
+			   padding-left:2em;
 	    	
  
      	}
@@ -198,6 +197,8 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
 	font-weight: 500;
+		font-family: $serif;
+
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -244,7 +245,7 @@ HEADER STYLES
 	background-color: rgba(61,61,61,1);
 }
 
-	#logo {
+	#header_logo{
 		margin: 0.5em 0;
 	
 		
@@ -351,7 +352,6 @@ POSTS & CONTENT STYLES
 			background-color: $white;
 			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
 				padding: 1.5em 1.5em 0 1.5em;

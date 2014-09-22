@@ -5,13 +5,13 @@
 				<div id="inner-content" class="wrap cf">
 
 						<div id="main" class="m-all t-3of3 d-7of7 cf" role="main">
-<div class="breadcrumb_wrp">						
-<?php the_breadcrumb(); ?>
-</div>
+
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
-
+<div class="breadcrumb_wrp">						
+<?php the_breadcrumb(); ?>
+</div>
 								<header class="article-header">
 
 									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
@@ -21,6 +21,7 @@
 								</header> <?php // end article header ?>
 								
 								<section class="entry-content cf" itemprop="articleBody">
+									
 									<?php
 										// the content (pretty self explanatory huh)
 										the_content();

@@ -77,8 +77,7 @@
 					</div>
 					
 					</section>
-					
-		<!--
+	
 					<section class="footer-top cf">
 <div class="wrap">
 					<div class="cf"></div>
@@ -97,7 +96,7 @@
 					<div class="m-all border-top t-1of2 d-1of4 cf" >
 					<h5>Contacts</h5>
 					</div>
-</div></section> -->
+</div></section> 
 					
 					
 					
